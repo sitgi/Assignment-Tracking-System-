@@ -1,0 +1,36 @@
+Functional Requirements
+The system shall allow users to register and log in.
+The system shall allow students to add assignments.
+The system shall allow students to edit assignments.
+The system shall allow students to delete assignments.
+The system shall display all assignments in a dashboard.
+The system shall allow users to set deadlines.
+The system shall send reminders before deadlines.
+
+Acceptance Criteria: Notifications must be sent at least 24 hours before deadline.
+
+The system shall allow users to mark assignments as completed.
+The system shall categorize assignments by subject/module.
+The system shall allow users to search assignments.
+
+Acceptance Criteria: Search results must display within 2 seconds
+
+Non-Functional Requirements
+Usability
+The system shall have a simple and intuitive interface.
+The system shall be accessible on mobile and desktop.
+Deployability
+The system shall be deployable on cloud platforms.
+The system shall support modern web browsers.
+Maintainability
+The system shall include clear documentation.
+The code shall follow modular design principles.
+Scalability
+The system shall support up to 1000 users.
+The system shall handle increased data efficiently.
+Security
+User data shall be encrypted.
+The system shall require authentication.
+Performance
+The system shall load pages within 2 seconds.
+Notifications shall be sent in real-time or near real-time.

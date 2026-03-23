@@ -1,0 +1,25 @@
+Introduction
+
+Tracking System 
+
+Education
+
+This system operates within the education domain, focusing on assisting students in managing academic tasks and deadlines effectively.
+
+Problem Statement
+
+Students often struggle to manage multiple assignments across different modules using complex platforms such as Blackboard. This leads to missed deadlines, poor time management, and increased stress.
+
+System Purpose
+
+The system aims to provide a simple and centralized platform where students can track assignments, receive reminders, and manage their academic responsibilities efficiently.
+
+Individual Scope
+
+The system is feasible as an individual project because:
+
+It has limited but meaningful features
+It can be developed using basic web technologies
+It does not require complex integrations initially
+
+The focus will be on core features such as assignment tracking, notifications, and task management.

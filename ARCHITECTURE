@@ -6,7 +6,7 @@ The system follows a simple web-based architecture consisting of a frontend inte
 System Context Diagram (level 1)
 
 This diagram shows how the system interacts with external users and services.
-
+'''mermaid
 C4Context
 title System Context Diagram
 
@@ -16,7 +16,7 @@ System_Ext(email, "Email Service", "Sends notifications")
 
 Rel(student, system, "Uses")
 Rel(system, email, "Sends reminders via")
-
+'''
 So the student is the primary user of the system.
 The system processes assignment data and sends reminders.
 An external email service is used for notifications. 

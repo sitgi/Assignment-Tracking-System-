@@ -3,132 +3,69 @@ Overview
 The system follows a simple web-based architecture consisting of a frontend interface, backend services, and a database.
 The system follows a simple web-based architecture consisting of a frontend interface, backend services, and a database. It also integrates with email services for sending reminders.
 
-System Context Diagram (level 1)
+## 2. System Context Diagram (Level 1)
 
 This diagram shows how the system interacts with external users and services.
-'''mermaid
-C4Context
-title System Context Diagram
 
-Person(student, "Student", "Uses the system to manage assignments")
-System(system, "Assignment Tracker System", "Tracks assignments and sends reminders")
-System_Ext(email, "Email Service", "Sends notifications")
+```mermaid
+graph TD
+    Student[Student] --> System[Assignment Tracker System]
+    System --> Email[Email Service]
+```
 
-Rel(student, system, "Uses")
-Rel(system, email, "Sends reminders via")
-'''
-So the student is the primary user of the system.
-The system processes assignment data and sends reminders.
-An external email service is used for notifications. 
+### Explanation:
+- The student is the primary user of the system.
+- The system manages assignments and reminders.
+- The email service is used to send notifications.
 
+## 3. Container Diagram (Level 2)
 
-Container Diagram (level 2)
+This diagram shows the main components of the system.
 
-This diagram shows the high level technical structure of the system.
+```mermaid
+graph TD
+    Student[Student] --> WebApp[Web Application]
+    WebApp --> API[Backend API]
+    API --> DB[Database]
+    API --> Email[Email Service]
+```
 
-C4Container
-title Container Diagram 
+### Explanation:
+- The Web Application provides the user interface.
+- The Backend API processes logic and handles requests.
+- The Database stores assignment data.
+- The Email Service sends reminders.
 
-Person(student, "Student")
+## 4. Component Diagram (Level 3)
 
-Container(webapp, "Web Application", "HTML/CSS/JS", "User interface for students")
-Container(api, "Backend API", "Node.js / Flask", "Handles business logic")
-Container(db, "Database", "MySQL / MongoDB", "Stores assignment data")
+This diagram shows the internal structure of the backend.
 
-System_Ext(email, "Email Service")
+```mermaid
+graph TD
+    API[Backend API] --> Auth[Authentication Module]
+    API --> Assign[Assignment Module]
+    API --> Reminder[Reminder Module]
+```
 
-Rel(student, webapp, "Uses")
-Rel(webapp, api, "API Calls")
-Rel(api, db, "Reads/Writes")
-Rel(api, email, "Sends reminders")
+### Explanation:
+- The Authentication Module handles login and registration.
+- The Assignment Module manages assignment operations.
+- The Reminder Module handles notifications and scheduling.
 
-So here the Web Application allows user interaction.
-The Backend API processes logic and handles requests.
-The Database stores all assignment data.
-The Email Service sends reminders to users.
+## 5. End-to-End System Flow
 
+```mermaid
+graph TD
+    Login[Student logs in] --> Add[Add Assignment]
+    Add --> Save[Save to Database]
+    Save --> Schedule[Schedule Reminder]
+    Schedule --> Notify[Send Notification]
+```
 
-Component Diagram  level 3
-
-This diagram shows internal backend components.
-
-C4Component
-title Component Diagram 
-
-Container(api, "Backend API")
-
-Component(auth, "Authentication Module", "Handles login/signup")
-Component(assign, "Assignment Module", "Manages assignments")
-Component(reminder, "Reminder Module", "Schedules notifications")
-
-Rel(auth, assign, "Access control")
-Rel(assign, reminder, "Triggers reminders")
-
-So here the Authentication Module manages user access.
-The Assignment Module handles assignment operations.
-The Reminder Module manages scheduling and notifications
-
-End-to-End System Flow
-
-The student logs into the system
-The student adds an assignment
-The system stores the assignment in the database
-The reminder module schedules a notification
-The system sends a reminder via email before the deadline
-
-This flow demonstrates how the system components interact to deliver the required functionality.
-
-
-Container Diagram (level 2)
-
-This diagram shows the high level technical structure of the system.
-
-C4Container
-title Container Diagram
-
-Person(student, "Student")
-
-Container(webapp, "Web Application", "HTML/CSS/JS", "User interface for students")
-Container(api, "Backend API", "Node.js / Flask", "Handles business logic")
-Container(db, "Database", "MySQL / MongoDB", "Stores assignment data")
-
-System_Ext(email, "Email Service")
-
-Rel(student, webapp, "Uses")
-Rel(webapp, api, "API Calls")
-Rel(api, db, "Reads/Writes")
-Rel(api, email, "Sends reminders")
-
-The Web Application allows user interaction.
-The Backend API processes logic and handles requests.
-The Database stores all assignment data.
-The Email Service sends reminders to users.
-
-Component Diagram (Level 3)
-
-This diagram shows internal backend components.
-
-C4Component
-title Component Diagram
-
-Container(api, "Backend API")
-
-Component(auth, "Authentication Module", "Handles login/signup")
-Component(assign, "Assignment Module", "Manages assignments")
-Component(reminder, "Reminder Module", "Schedules notifications")
-
-Rel(auth, assign, "Access control")
-Rel(assign, reminder, "Triggers reminders")
-
-The Authentication Module manages user access.
-The Assignment Module handles assignment operations.
-The Reminder Module manages scheduling and notifications.
-
-End-to-End System Flow
-The student logs into the system
-The student adds an assignment
-The system stores the assignment in the database
-The reminder module schedules a notification
-The system sends a reminder via email before the deadline
-
-This flow demonstrates how the system components interact to deliver the required functionality.
+### Explanation:
+This diagram shows how the system works step-by-step:
+- The student logs into the system  
+-The student adds an assignment  
+-The system stores the assignment in the database  
+-A reminder is scheduled  
+-A notification is sent before the deadline  

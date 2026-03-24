@@ -1,0 +1,33 @@
+Introduction
+
+Project Title : Assignment Tracking System 
+
+Domain
+
+The system falls under the Education domain, focusing on to support students in managing their academic tasks and deadlines more effectively.
+
+Problem Statement
+
+Many students struggle to manage multiple assignments across different modules using complex platforms such as Blackboard. 
+These systems often lack simple task tracking features, which results in missed deadlines, poor time management, and increased academic stress.
+
+System Purpose
+
+The purpose of this system is to provide a centralized and user-friendly platform where students can:
+Add and manage assignments
+Set deadlines
+Receive automated reminders
+Track their progress
+This system complements existing LMS platforms by focusing specifically on assignment tracking and personal productivity.
+
+Individual Scope
+
+This project is feasible as an individual project because it focuses on core functionalities without requiring complex integrations.
+The system will include:
+
+User authentication (login/register)
+Assignment management (add, edit, delete)
+Deadline tracking
+Reminder notifications
+
+Advanced features such as AI recommendations or LMS integration may be considered as future enhancements but are not part of the current scope.

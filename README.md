@@ -1,7 +1,12 @@
 # Assignment-Tracking-System-
 
-Project Description
+Introduction
 
-The Smart Assignment Tracking and Reminder System is a web-based application designed to help students efficiently manage their academic workload. The system allows users to track assignments, monitor deadlines, receive reminders, and organize tasks in a simple and user-friendly interface.
+The Assignment Tracking System is a web-based application designed to help students manage their academic workload efficiently. The system provides a simple and focused platform for tracking assignments, setting deadlines, and receiving timely reminders.
+Unlike complex Learning Management Systems (LMS) such as Blackboard, this system focuses specifically on personal task management to improve productivity and reduce missed deadlines.
 
-This system complements existing Learning Management Systems (LMS) such as Blackboard by focusing specifically on personal productivity and task tracking.
+Objective 
+
+To provide a simple interface for managing assignments.
+To reduce missed deadlines through automated reminders.
+To improve student time management and productivity.

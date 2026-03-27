@@ -1,0 +1,11 @@
+# Stakeholder Analysis
+
+| Stakeholder      | Role                        | Key Concerns                    | Pain Points               | Success Metrics                  |
+| ---------------- | --------------------------- | ------------------------------- | ------------------------- | -------------------------------- |
+| Students         | Primary users of the system | Easy tracking of assignments    | Missing deadlines         | 90% task completion rate         |
+| Lecturers        | Provide assignments         | Students submitting on time     | Late submissions          | Reduced late submissions         |
+| University Admin | Oversees system usage       | System reliability              | System downtime           | 99% system uptime                |
+| IT Support       | Maintains the system        | System performance              | Bugs and technical issues | Fast issue resolution time       |
+| Developers       | Build and maintain system   | Code quality and scalability    | Complex implementation    | Maintainable and scalable system |
+| Parents          | Monitor student progress    | Academic performance visibility | Lack of tracking tools    | Improved student performance     |
+

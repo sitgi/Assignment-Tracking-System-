@@ -1,1 +1,47 @@
 
+# Use Case Diagram
+
+```mermaid
+graph TD
+
+Student --> UC1[Register Account]
+Student --> UC2[Login]
+Student --> UC3[Add Assignment]
+Student --> UC4[Edit Assignment]
+Student --> UC5[Delete Assignment]
+Student --> UC6[View Assignments]
+Student --> UC7[Mark Assignment Complete]
+Student --> UC8[Receive Reminder]
+
+Lecturer --> UC3
+Admin --> UC9[Manage System]
+ITSupport --> UC10[Maintain System]
+Developer --> UC11[Update System]
+Parent --> UC6
+
+UC3 --> UC12[Set Deadline]
+UC6 --> UC13[Search Assignment]
+```
+
+## Explanation
+
+### Key Actors:
+
+* **Student**: Primary user who manages assignments
+* **Lecturer**: Provides assignment information
+* **Admin**: Oversees system operations
+* **IT Support**: Maintains system performance
+* **Developer**: Updates and improves system
+* **Parent**: Monitors student progress
+
+### Relationships:
+
+* Students interact with most use cases
+* “Add Assignment” includes setting deadlines
+* “View Assignments” includes searching
+
+### Stakeholder Alignment:
+
+* Students’ concern: tracking → View/Add Assignment
+* Lecturers’ concern: submissions → Add Assignment
+* IT concern: performance → Maintain System

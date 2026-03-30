@@ -1,1 +1,14 @@
+ Reflection
 
+One of the main challenges in this assignment was translating functional requirements into use cases.
+While requirements describe what the system should do, use cases required a deeper understanding of how users interact with the system step-by-step.
+
+Another challenge was ensuring that all stakeholders identified in Assignment 4 were properly represented in the use case diagram.
+Balancing simplicity while including sufficient detail was also difficult.
+
+Developing test cases required aligning each test with specific functional requirements. 
+It was important to ensure that each test case clearly validated system behavior.
+
+Additionally, defining non-functional test scenarios such as performance and security required careful thinking, 
+as these are not directly visible features but are critical to system success.
+Overall, this assignment improved understanding of system modeling, user interaction, and validation processes in software engineering.

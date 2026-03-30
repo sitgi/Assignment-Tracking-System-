@@ -1,1 +1,25 @@
 
+# Test Cases
+
+| Test Case ID | Requirement ID | Description           | Steps                  | Expected Result       | Actual Result| Status |
+| ------------ | -------------- | ----------------------| ---------------------- | --------------------- | -------------| ------ |
+| TC-001       | FR-001         | User registers account| Enter details -Submit  |   Account created     | TBD          | TBD    |
+| TC-002       | FR-002         | User login            | Enter credentials      | Login successful      | TBD          | TBD    |
+| TC-003       | FR-003         | Add assignment        | Enter details -Save    | Assignment saved      | TBD          | TBD    |
+| TC-004       | FR-004         | Edit assignment       | Modify details         | Updated successfully  | TBD          | TBD    |
+| TC-005       | FR-005         | Delete assignment     | Click delete           | Assignment removed    | TBD          | TBD    |
+| TC-006       | FR-006         | View assignments      | Open dashboard         | List displayed        | TBD          | TBD    |
+| TC-007       | FR-007         | Reminder notification | Wait for reminder      | Notification received | TBD          | TBD    |
+| TC-008       | FR-008         | Search assignment     | Enter keyword          | Results displayed     | TBD          | TBD    |
+
+## Non-Functional Test Cases
+
+### Performance Test
+
+* Simulate 1000 users
+* Expected: Response time ≤ 2 seconds
+
+### Security Test
+
+* Attempt invalid login
+* Expected: Access denied

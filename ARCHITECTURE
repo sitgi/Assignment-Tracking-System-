@@ -65,7 +65,7 @@ graph TD
 ### Explanation:
 This diagram shows how the system works step-by-step:
 - The student logs into the system  
--The student adds an assignment  
--The system stores the assignment in the database  
--A reminder is scheduled  
--A notification is sent before the deadline  
+- The student adds an assignment  
+- The system stores the assignment in the database  
+- A reminder is scheduled  
+- A notification is sent before the deadline  

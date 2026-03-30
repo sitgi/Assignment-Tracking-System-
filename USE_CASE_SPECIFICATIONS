@@ -1,1 +1,125 @@
 
+# Use Case Specifications
+
+## Use Case 1: Register Account
+
+**Actor:** Student
+**Precondition:** User has no account
+**Postcondition:** Account is created
+
+**Basic Flow:**
+
+1. User enters details
+2. System validates input
+3. Account is created
+
+**Alternative Flow:**
+
+* Invalid input → error message
+
+---
+
+## Use Case 2: Login
+
+**Actor:** Student
+**Precondition:** Account exists
+**Postcondition:** User logged in
+
+**Basic Flow:**
+
+1. Enter username/password
+2. System validates
+3. Access granted
+
+**Alternative Flow:**
+
+* Wrong credentials → access denied
+
+---
+
+## Use Case 3: Add Assignment
+
+**Actor:** Student
+**Precondition:** Logged in
+**Postcondition:** Assignment saved
+
+**Basic Flow:**
+
+1. Enter assignment details
+2. Set deadline
+3. Save
+
+**Alternative Flow:**
+
+* Missing fields → error
+
+---
+
+## Use Case 4: Edit Assignment
+
+**Actor:** Student
+**Precondition:** Assignment exists
+**Postcondition:** Updated
+
+**Basic Flow:**
+
+1. Select assignment
+2. Edit details
+3. Save
+
+---
+
+## Use Case 5: Delete Assignment
+
+**Actor:** Student
+**Precondition:** Assignment exists
+**Postcondition:** Assignment removed
+
+**Basic Flow:**
+
+1. Select assignment
+2. Click delete
+3. Confirm
+
+---
+
+## Use Case 6: View Assignments
+
+**Actor:** Student
+**Precondition:** Logged in
+**Postcondition:** Assignments displayed
+
+**Basic Flow:**
+
+1. Open dashboard
+2. System displays assignments
+
+---
+
+## Use Case 7: Mark Assignment Complete
+
+**Actor:** Student
+**Precondition:** Assignment exists
+**Postcondition:** Status updated
+
+**Basic Flow:**
+
+1. Select assignment
+2. Mark complete
+
+---
+
+## Use Case 8: Receive Reminder
+
+**Actor:** Student
+**Precondition:** Deadline exists
+**Postcondition:** Notification sent
+
+**Basic Flow:**
+
+1. System checks deadlines
+2. Sends notification
+
+**Alternative Flow:**
+
+* Notification fails → retry

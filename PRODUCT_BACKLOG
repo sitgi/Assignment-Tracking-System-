@@ -18,3 +18,6 @@
 Must-have features are essential for system functionality and align with stakeholder needs such as usability and task tracking.
 Should-have features improve usability but are not critical.
 Could-have features enhance user experience but can be added later.
+
+### Effort Estimation Approach
+Story points were estimated using the Fibonacci sequence (1, 2, 3, 5, 8) to reflect increasing complexity and uncertainty of tasks.

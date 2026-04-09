@@ -1,0 +1,35 @@
+# Sprint Plan
+
+## Sprint Goal
+
+Develop a Minimum Viable Product (MVP) that allows students to register, log in, and manage assignments.
+
+
+
+## Selected User Stories
+
+* US-001 Register account
+* US-002 Login
+* US-003 Add assignment
+* US-006 View assignments
+* US-007 Receive reminders
+
+
+
+## Sprint Backlog
+
+| Task ID | Task Description             | Assigned To | Estimated Hours | Status |
+| ------- | ---------------------------- | ----------- | --------------- | ------ |
+| T-001   | Develop registration feature | Dev         | 6               | To Do  |
+| T-002   | Develop login feature        | Dev         | 6               | To Do  |
+| T-003   | Create assignment input form | Dev         | 8               | To Do  |
+| T-004   | Build database structure     | Dev         | 6               | To Do  |
+| T-005   | Implement reminder system    | Dev         | 8               | To Do  |
+| T-006   | Design user interface        | Dev         | 6               | To Do  |
+
+
+
+## Contribution to MVP
+
+This sprint delivers the core functionality required for users to interact with the system.
+It ensures users can manage assignments and receive reminders, which are the main objectives of the system.

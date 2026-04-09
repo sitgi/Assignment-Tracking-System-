@@ -1,0 +1,14 @@
+# User Stories
+
+| Story ID | User Story                                                                 | Acceptance Criteria                     | Priority |
+| -------- | -------------------------------------------------------------------------- | --------------------------------------- | -------- |
+| US-001   | As a student, I want to register an account so that I can use the system   | Account is created successfully         | High     |
+| US-002   | As a student, I want to log in so that I can access my assignments         | Login successful with valid credentials | High     |
+| US-003   | As a student, I want to add assignments so that I can track my work        | Assignment is saved correctly           | High     |
+| US-004   | As a student, I want to edit assignments so that I can update details      | Changes are saved                       | Medium   |
+| US-005   | As a student, I want to delete assignments so that I can remove tasks      | Assignment is deleted                   | Medium   |
+| US-006   | As a student, I want to view all assignments so that I can manage my tasks | Assignments displayed clearly           | High     |
+| US-007   | As a student, I want reminders so that I do not miss deadlines             | Notification sent before deadline       | High     |
+| US-008   | As a student, I want to mark assignments complete so that I track progress | Status updated                          | Medium   |
+| US-009   | As a student, I want to search assignments so that I can find them quickly | Results display within 2 seconds        | Medium   |
+| US-010   | As an admin, I want user data secured so that the system is safe           | Data encrypted                          | High     |

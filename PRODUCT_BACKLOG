@@ -1,0 +1,20 @@
+# Product Backlog
+
+| Story ID | User Story         | Priority (MoSCoW) | Effort (Points) | Dependencies |
+| -------- | ------------------ | ----------------- | --------------- | ------------ |
+| US-001   | Register account   | Must-have         | 3               | None         |
+| US-002   | Login              | Must-have         | 3               | US-001       |
+| US-003   | Add assignment     | Must-have         | 5               | US-002       |
+| US-006   | View assignments   | Must-have         | 3               | US-003       |
+| US-007   | Receive reminders  | Must-have         | 5               | US-003       |
+| US-004   | Edit assignment    | Should-have       | 3               | US-003       |
+| US-005   | Delete assignment  | Should-have       | 2               | US-003       |
+| US-008   | Mark complete      | Could-have        | 2               | US-003       |
+| US-009   | Search assignments | Could-have        | 3               | US-006       |
+| US-010   | Data security      | Must-have         | 5               | None         |
+
+## Justification
+
+Must-have features are essential for system functionality and align with stakeholder needs such as usability and task tracking.
+Should-have features improve usability but are not critical.
+Could-have features enhance user experience but can be added later.

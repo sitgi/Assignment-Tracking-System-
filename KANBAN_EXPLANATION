@@ -1,0 +1,39 @@
+# Kanban Board Explanation
+
+## What is a Kanban Board?
+
+A Kanban board is a visual project management tool used to track tasks as they move through different stages of a workflow. It typically consists of columns such as "To Do", "In Progress", and "Done", which represent the status of tasks.
+
+
+
+## How the Kanban Board Visualizes Workflow
+
+The Kanban board created for this project uses columns to represent task progress:
+
+* **To Do**: Tasks that are not yet started
+* **In Progress**: Tasks currently being worked on
+* **Testing**: Tasks under verification
+* **Blocked**: Tasks that cannot proceed due to issues
+* **Done**: Completed tasks
+
+This structure allows clear visibility of each task’s status at any time.
+
+
+
+## Work-In-Progress (WIP) Limits
+
+The board limits work-in-progress to a small number of tasks in the "In Progress" column (e.g., 2–3 tasks). 
+This helps prevent overload and ensures focus on completing tasks before starting new ones.
+
+
+
+## Support for Agile Principles
+
+The Kanban board supports Agile principles by:
+
+* Encouraging continuous delivery of features
+* Allowing flexibility and adaptability
+* Providing transparency in task management
+* Enabling better collaboration through clear task tracking
+
+This approach improves efficiency and ensures steady progress in system development.

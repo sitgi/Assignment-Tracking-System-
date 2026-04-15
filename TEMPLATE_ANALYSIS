@@ -1,0 +1,25 @@
+# Template Analysis and Selection
+
+## Comparison of GitHub Project Templates
+
+| Template         | Columns / Workflow                | Automation Features                            | Agile Suitability                                          |
+| ---------------- | --------------------------------- | ---------------------------------------------- | ---------------------------------------------------------- |
+| Basic Kanban     | To Do, In Progress, Done          | No automation                                  | Suitable for simple workflows but lacks advanced features  |
+| Automated Kanban | To Do, In Progress, Done          | Automatically moves issues when status changes | Highly suitable for Agile due to automation and efficiency |
+| Bug Triage       | New, Investigating, Fixed         | Auto-labeling bugs                             | Suitable for maintenance but not full development          |
+| Team Planning    | Backlog, Ready, In Progress, Done | Supports planning and prioritization           | Suitable for larger teams and structured Agile planning    |
+
+
+
+## Selected Template: Automated Kanban
+
+The **Automated Kanban** template was selected for this project because it aligns well with Agile principles and supports efficient workflow management.
+
+### Justification
+
+* Automation reduces manual work by automatically moving issues across columns.
+* Supports continuous delivery by tracking task progress in real time.
+* Integrates well with GitHub Issues created in Assignment 6.
+* Enhances productivity by ensuring tasks move smoothly through development stages.
+
+This makes it ideal for managing the Assignment Tracker System, where tasks such as user stories need to be tracked from creation to completion.

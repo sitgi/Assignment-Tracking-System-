@@ -23,3 +23,9 @@ Unlike complex Learning Management Systems (LMS) such as Blackboard, this system
 - [Use Case Specifications](USE_CASE_SPECIFICATIONS.md)
 - [Test Cases](TEST_CASES.md)
 - [Reflection](REFLECTION_A5.md)
+
+- ## Assignment 7 Documentation
+
+- [Template Analysis](template_analysis.md)
+- [Kanban Explanation](kanban_explanation.md)
+- [Reflection](reflection.md)

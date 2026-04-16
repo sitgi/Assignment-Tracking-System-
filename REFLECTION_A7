@@ -1,0 +1,16 @@
+# Reflection
+
+One of the main challenges in this assignment was selecting the most appropriate GitHub project template.
+While multiple templates were available, it required careful analysis to determine which one best supports Agile workflows and the needs of the Assignment Tracker System.
+
+Customizing the Kanban board also presented challenges, particularly in deciding which additional columns to include.
+Adding columns such as "Testing" and "Blocked" required understanding how tasks flow through development and identifying potential bottlenecks.
+
+Another challenge was linking issues from Assignment 6 to the Kanban board and ensuring that all tasks were properly tracked. 
+This required attention to detail to maintain consistency and traceability.
+
+When comparing GitHub Projects to other tools such as Trello and Jira, GitHub offers strong integration with code and issues, making it convenient for developers.
+However, tools like Jira provide more advanced Agile features, while Trello offers a simpler and more user-friendly interface.
+
+Overall, this assignment improved understanding of Kanban boards, 
+workflow visualization, and Agile project management tools.

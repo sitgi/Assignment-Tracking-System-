@@ -1,1 +1,14 @@
 
+# Reflection
+
+This assignment focused on modeling system behavior using state and activity diagrams.
+One challenge was determining the correct level of detail to include. Too many states made diagrams complex, 
+while too few reduced clarity.
+
+Another challenge was ensuring alignment between diagrams and previously defined requirements and user stories. 
+Careful mapping was required to maintain traceability from Assignment 4 and Assignment 6.
+
+State diagrams helped illustrate how system objects change over time, such as assignments moving from creation to completion. 
+Activity diagrams, on the other hand, were useful for visualizing workflows like adding assignments and receiving reminders.
+
+Overall, this assignment improved understanding of dynamic system modeling and its role in bridging requirements and implementation.

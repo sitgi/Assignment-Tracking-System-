@@ -26,6 +26,12 @@ Unlike complex Learning Management Systems (LMS) such as Blackboard, this system
 
 - ## Assignment 7 Documentation
 
-- [Template Analysis](template_analysis.md)
-- [Kanban Explanation](kanban_explanation.md)
-- [Reflection](reflection.md)
+- [Template Analysis](TAMPLATE_ANALYSIS.md)
+- [Kanban Explanation](KANBAN_EXPLANATION.md)
+- [Reflection](REFLECTION.md)
+
+-  ## Assignment 8 Documentation
+
+- [State Diagrams](STATE_DIAGRAMS.md)
+- [Activity Diagrams](ACTIVITY_DIAGRAMS.md)
+- [Reflection](a8_REFLECTION.md)

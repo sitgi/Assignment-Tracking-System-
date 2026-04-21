@@ -1,1 +1,79 @@
 
+```markdown
+# Activity Diagrams
+
+## 1. User Registration
+
+```mermaid
+flowchart TD
+    Start --> EnterDetails
+    EnterDetails --> Validate
+    Validate -->|Valid| CreateAccount
+    Validate -->|Invalid| Error
+    CreateAccount --> End
+    Error --> End
+
+flowchart TD
+    Start --> EnterCredentials
+    EnterCredentials --> Validate
+    Validate -->|Valid| AccessSystem
+    Validate -->|Invalid| Error
+    AccessSystem --> End
+    Error --> End
+
+flowchart TD
+    Start --> EnterDetails
+    EnterDetails --> Validate
+    Validate -->|Valid| Save
+    Validate -->|Invalid| Error
+    Save --> ScheduleReminder
+    ScheduleReminder --> End
+    Error --> End
+
+flowchart TD
+    Start --> SelectAssignment
+    SelectAssignment --> ModifyDetails
+    ModifyDetails --> SaveChanges
+    SaveChanges --> End
+
+flowchart TD
+    Start --> SelectAssignment
+    SelectAssignment --> ConfirmDelete
+    ConfirmDelete --> Delete
+    Delete --> End
+
+flowchart TD
+    Start --> RequestList
+    RequestList --> FetchData
+    FetchData --> Display
+    Display --> End
+
+flowchart TD
+    Start --> CheckDeadline
+    CheckDeadline -->|Due Soon| SendNotification
+    CheckDeadline -->|Not Due| Wait
+    SendNotification --> End
+    Wait --> End
+
+flowchart TD
+    Start --> SelectAssignment
+    SelectAssignment --> MarkComplete
+    MarkComplete --> UpdateStatus
+    UpdateStatus --> End
+
+Traceability
+
+These workflows map to:
+
+FR-001 → Registration
+FR-002 → Login
+FR-003 → Add Assignment
+FR-004 → Edit Assignment
+FR-005 → Delete Assignment
+FR-006 → View Assignments
+FR-007 → Reminder Notifications
+FR-008 → Mark Assignment Complete
+
+And user stories (US-001 to US-011).
+
+

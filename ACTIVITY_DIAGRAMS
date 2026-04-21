@@ -1,10 +1,4 @@
 
-```markdown
-# Activity Diagrams
-
-## 1. User Registration
-
-```mermaid
 flowchart TD
     Start --> EnterDetails
     EnterDetails --> Validate

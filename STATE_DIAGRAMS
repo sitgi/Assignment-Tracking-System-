@@ -1,1 +1,82 @@
+# State Transition Diagrams
 
+## 1. Assignment Object
+
+```mermaid
+stateDiagram-v2
+    [*] --> Created
+    Created --> Updated : Edit Assignment
+    Created --> Completed : Mark Complete
+    Created --> Deleted : Delete Assignment
+    Updated --> Completed : Mark Complete
+    Completed --> Archived
+
+Explanation
+It represents how an assignment moves from creation to completion or deletion.
+
+stateDiagram-v2
+    [*] --> Registered
+    Registered --> Active : Login
+    Active --> LoggedOut : Logout
+    Active --> Suspended : Security Issue
+    Suspended --> Active : Reactivate
+
+Explanation
+It shows lifecycle of a user account from registration to usage
+
+stateDiagram-v2
+    [*] --> Scheduled
+    Scheduled --> Triggered : Time Reached
+    Triggered --> Sent
+    Sent --> Acknowledged
+
+Explanation
+It represents how reminders are scheduled and delivered.
+
+stateDiagram-v2
+    [*] --> NotAuthenticated
+    NotAuthenticated --> Authenticated : Login
+    Authenticated --> Expired : Session Timeout
+    Authenticated --> LoggedOut : Logout
+
+It shows login session lifecycle.
+
+stateDiagram-v2
+    [*] --> Created
+    Created --> Sent
+    Sent --> Delivered
+    Delivered --> Read
+
+Represents how notifications are processed and consumed.
+
+stateDiagram-v2
+    [*] --> NotStarted
+    NotStarted --> InProgress
+    InProgress --> Submitted
+    Submitted --> Reviewed
+
+Tracks assignment completion stages.
+
+stateDiagram-v2
+    [*] --> Pending
+    Pending --> Running
+    Running --> Completed
+    Running --> Failed
+    Failed --> Retried
+
+Represents internal system operations like reminders.
+
+Traceability
+
+These diagrams map to:
+
+FR-001 → User Registration
+FR-002 → Login
+FR-003 → Add Assignment
+FR-004 → Edit Assignment
+FR-005 → Delete Assignment
+FR-006 → View Assignments
+FR-007 → Reminder Notifications
+FR-008 → Mark Assignment Complete
+
+And user stories from Assignment 6 (US-001 to US-011).

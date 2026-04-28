@@ -35,3 +35,9 @@ Unlike complex Learning Management Systems (LMS) such as Blackboard, this system
 - [State Diagrams](STATE_DIAGRAMS.md)
 - [Activity Diagrams](ACTIVITY_DIAGRAMS.md)
 - [Reflection](a8_REFLECTION.md)
+
+- ## Assignment 9 Documentation
+
+- [Sequence Diagrams](SEQUENCE_DIAGRAMS.md)
+- [Class Diagram](CLASS_DIAGRAM.md)
+- [Reflection](A9_REFLECTION.md)

@@ -1,1 +1,48 @@
 
+classDiagram
+    class User {
+        +id
+        +name
+        +email
+        +password
+        login()
+        register()
+    }
+
+    class Assignment {
+        +id
+        +title
+        +deadline
+        +status
+        add()
+        edit()
+        delete()
+    }
+
+    class Reminder {
+        +id
+        +time
+        schedule()
+        send()
+    }
+
+    class Notification {
+        +message
+        send()
+    }
+
+    User --> Assignment
+    Assignment --> Reminder
+    Reminder --> Notification
+
+## Traceability
+
+This design is based on:
+
+- Assignment 4: System Requirements  
+- Assignment 6: User Stories  
+- Assignment 8: Activity & State Diagrams  
+
+Example:
+- FR-003 → Add Assignment → Sequence Diagram  
+- US-003 → Add Assignment → Class Interaction

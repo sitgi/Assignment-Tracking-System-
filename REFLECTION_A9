@@ -1,1 +1,13 @@
+# Reflection
+
+This assignment focused on system design and interaction modeling.One challenge was understanding how components communicate within the system. 
+Translating earlier requirements and activity diagrams into sequence diagrams required careful mapping.
+
+Another challenge was designing the class diagram to accurately represent system structure without making it overly complex. 
+It was important to balance simplicity and completeness.
+
+Sequence diagrams helped visualize how users interact with the system step-by-step, while the class diagram provided a structural view of the system.
+Together, these diagrams improved understanding of both system behavior and architecture.
+
+Overall, this assignment strengthened understanding of system design and how different components interact in a real-world application.
 

@@ -1,1 +1,49 @@
+sequenceDiagram
+    participant User
+    participant UI
+    participant API
+    participant DB
 
+    User->>UI: Enter credentials
+    UI->>API: Send login request
+    API->>DB: Verify user
+    DB-->>API: Return result
+    API-->>UI: Error
+    UI-->>User: Display result
+
+sequenceDiagram
+    participant User
+    participant UI
+    participant API
+    participant DB
+    participant Reminder
+
+    User->>UI: Enter assignment details
+    UI->>API: Send data
+    API->>DB: Save assignment
+    API->>Reminder: Schedule reminder
+    DB-->>API: Success
+    API-->>UI: Confirmation
+
+
+sequenceDiagram
+    participant User
+    participant UI
+    participant API
+    participant DB
+
+    User->>UI: Request assignments
+    UI->>API: Fetch request
+    API->>DB: Retrieve data
+    DB-->>API: Return list
+    API-->>UI: Send data
+    UI-->>User: Display list
+
+sequenceDiagram
+    participant System
+    participant Scheduler
+    participant API
+    participant User
+
+    Scheduler->>API: Trigger reminder
+    API->>User: Send notification

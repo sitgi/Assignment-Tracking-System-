@@ -10,3 +10,4 @@ class User:
 
     def register(self):
         return f"{self.name} registered"
+

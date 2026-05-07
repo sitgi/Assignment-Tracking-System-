@@ -41,3 +41,50 @@ Unlike complex Learning Management Systems (LMS) such as Blackboard, this system
 - [Sequence Diagrams](SEQUENCE_DIAGRAMS.md)
 - [Class Diagram](CLASS_DIAGRAM.md)
 - [Reflection](A9_REFLECTION.md)
+
+## Assignment 10
+
+## Overview
+
+This assignment focused on implementing the Assignment Tracking System using Python and applying creational design patterns.
+
+## Source Code Structure
+
+| Folder               | Purpose                    |
+|--------------------- |--------------------------- |
+| /src                 | Core system classes        |
+| /creational_patterns | Creational design patterns |
+| /tests               | Unit testing               |
+
+
+
+## Design Choices
+
+Python was selected because it is simple, readable, and suitable for object-oriented programming.
+
+The system was structured into separate folders to improve maintainability and organization.
+
+## Creational Pattern Rationales
+
+| Pattern                   | Purpose                         |
+|---------------------------|---------------------------------|
+| Simple Factory            | Creates assignment types        |
+| Factory Method            | Handles notification creation   |
+| Abstract Factory          | Creates dashboard interfaces    |
+| Builder                   | Builds assignments step-by-step |
+| Prototype                 | Clones assignment templates     |
+| Singleton                 | Ensures one database connection |
+
+
+## Testing
+
+Unit tests were implemented to validate:
+- Assignment creation
+- Singleton behavior
+- Prototype cloning
+
+## GitHub Management
+
+GitHub Issues and milestones were used to track implementation progress and manage tasks throughout development.
+
+

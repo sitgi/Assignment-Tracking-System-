@@ -1,17 +1,17 @@
-class Car:
-    def drive(self):
-        return "Driving Car"
+class HomeworkAssignment:
+    def create(self):
+        return "Homework Assignment Created"
 
-class Bike:
-    def drive(self):
-        return "Riding Bike"
+class ProjectAssignment:
+    def create(self):
+        return "Project Assignment Created"
 
-class VehicleFactory:
+class AssignmentFactory:
     @staticmethod
-    def create_vehicle(type):
-        if type == "car":
-            return Car()
-        elif type == "bike":
-            return Bike()
+    def create_assignment(type):
+        if type == "homework":
+            return HomeworkAssignment()
+        elif type == "project":
+            return ProjectAssignment()
         else:
-            raise ValueError("Invalid vehicle type")
+            raise ValueError("Invalid assignment type")

@@ -1,8 +1,8 @@
 import copy
 
-class Circle:
-    def __init__(self, radius):
-        self.radius = radius
+class AssignmentTemplate:
+    def __init__(self, title):
+        self.title = title
 
     def clone(self):
         return copy.deepcopy(self)

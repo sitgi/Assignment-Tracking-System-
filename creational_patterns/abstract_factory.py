@@ -1,14 +1,14 @@
-class WindowsButton:
-    def render(self):
-        return "Windows Button"
+class StudentDashboard:
+    def display(self):
+        return "Student Dashboard"
 
-class MacButton:
-    def render(self):
-        return "Mac Button"
+class LecturerDashboard:
+    def display(self):
+        return "Lecturer Dashboard"
 
-class GUIFactory:
-    def create_button(self, type):
-        if type == "windows":
-            return WindowsButton()
-        elif type == "mac":
-            return MacButton()
+class DashboardFactory:
+    def create_dashboard(self, type):
+        if type == "student":
+            return StudentDashboard()
+        elif type == "lecturer":
+            return LecturerDashboard()

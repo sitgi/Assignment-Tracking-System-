@@ -1,6 +1,5 @@
+from creational_patterns.simple_factory import AssignmentFactory
 
-from creational_patterns.simple_factory import VehicleFactory
-
-def test_vehicle_factory():
-    car = VehicleFactory.create_vehicle("car")
-    assert car.drive() == "Driving Car"
+def test_assignment_factory():
+    assignment = AssignmentFactory.create_assignment("homework")
+    assert assignment.create() == "Homework Assignment Created"

@@ -1,11 +1,11 @@
-class PaymentProcessor:
-    def process(self):
+class Notification:
+    def send(self):
         pass
 
-class CreditCardProcessor(PaymentProcessor):
-    def process(self):
-        return "Processing Credit Card"
+class EmailNotification(Notification):
+    def send(self):
+        return "Email Notification Sent"
 
-class PayPalProcessor(PaymentProcessor):
-    def process(self):
-        return "Processing PayPal"
+class SMSNotification(Notification):
+    def send(self):
+        return "SMS Notification Sent"

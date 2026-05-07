@@ -1,1 +1,88 @@
 
+# CHANGELOG
+
+All notable changes made to the Assignment Tracking System project are documented here.
+
+## Assignment 3
+### Added
+- Created GitHub repository
+- Added project overview
+- Added specifications.md
+- Added architecture.md
+- Defined initial system architecture
+- Added requirements documentation
+
+## Assignment 4
+### Added
+- Stakeholder analysis table
+- System requirements document
+- Reflection document
+
+### Updated
+- Improved documentation structure
+- Linked requirements to stakeholders
+
+## Assignment 5
+### Added
+- Test cases documentation
+- Testing workflows
+- Requirement traceability
+
+### Updated
+- README links
+- Documentation formatting
+
+## Assignment 6
+### Added
+- Agile planning documentation
+- User stories
+- GitHub Issues
+- Sprint milestones
+- Product backlog
+
+### Updated
+- Traceability between requirements and user stories
+
+## Assignment 7
+### Added
+- GitHub Kanban board
+- Workflow columns
+- Labels and issue categorization
+- Sprint task tracking
+
+### Updated
+- Project organization
+- Agile workflow management
+
+## Assignment 8
+### Added
+- State diagrams
+- Activity diagrams
+- Reflection document
+- Diagram screenshots/images
+
+### Updated
+- System behavior modeling
+
+## Assignment 9
+### Added
+- Sequence diagrams
+- Class diagram
+- Design reflection
+
+### Updated
+- System interaction modeling
+- Architectural design documentation
+
+## Assignment 10
+### Added
+- Source code implementation
+- Core classes in /src
+- Creational design patterns
+- Unit tests
+- Coverage report
+
+### Updated
+- README documentation
+- Project folder structure
+- GitHub issue tracking

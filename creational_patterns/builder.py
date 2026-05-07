@@ -1,21 +1,25 @@
-class Pizza:
+class Assignment:
     def __init__(self):
-        self.parts = []
+        self.details = []
 
-    def add(self, part):
-        self.parts.append(part)
+    def add_detail(self, detail):
+        self.details.append(detail)
 
-class PizzaBuilder:
+class AssignmentBuilder:
     def __init__(self):
-        self.pizza = Pizza()
+        self.assignment = Assignment()
 
-    def add_cheese(self):
-        self.pizza.add("cheese")
+    def add_title(self):
+        self.assignment.add_detail("Title Added")
         return self
 
-    def add_toppings(self):
-        self.pizza.add("toppings")
+    def add_deadline(self):
+        self.assignment.add_detail("Deadline Added")
+        return self
+
+    def add_description(self):
+        self.assignment.add_detail("Description Added")
         return self
 
     def build(self):
-        return self.pizza
+        return self.assignment

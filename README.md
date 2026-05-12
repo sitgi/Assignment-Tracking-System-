@@ -88,3 +88,53 @@ Unit tests were implemented to validate:
 GitHub Issues and milestones were used to track implementation progress and manage tasks throughout development.
 
 
+## Assignment 11 – Repository Layer
+
+## Overview
+
+This assignment focused on implementing a repository layer for the Assignment Tracking System.
+The repository layer separates storage logic from business logic, making the system easier to maintain, test, and extend.
+
+## Repository Design
+
+A generic repository interface was implemented to standardize CRUD operations across repositories.
+
+### CRUD Operations
+- Save
+- Find By ID
+- Find All
+- Delete
+
+Generics/interfaces were used to reduce duplication and improve scalability.
+
+## In-Memory Storage
+
+The first implementation uses in-memory dictionary storage.
+
+Benefits:
+- Fast testing
+- No database dependency
+- Simple implementation
+
+## Storage Abstraction
+
+The Factory Pattern was used to abstract storage creation.
+
+This allows future switching between:
+- In-memory storage
+- Database storage
+- File storage
+- External APIs
+
+without changing business logic.
+
+## Future-Proofing
+
+A stub DatabaseAssignmentRepository was added to demonstrate future database integration support.
+
+## Testing
+
+Unit tests were implemented for:
+- Save operations
+- Find operations
+- Delete operations

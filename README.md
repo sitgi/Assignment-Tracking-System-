@@ -138,3 +138,24 @@ Unit tests were implemented for:
 - Save operations
 - Find operations
 - Delete operations
+
+
+# Assignment 12 – Service Layer and REST API
+
+## Overview
+This assignment implemented a service layer and REST API using FastAPI.
+
+## Services
+- UserService
+- AssignmentService
+- ReminderService
+
+## API
+Endpoints:
+- GET /api/users
+- POST /api/users
+- GET /api/assignments
+- GET /api/reminders
+
+## Documentation
+OpenAPI documentation added under /docs.

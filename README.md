@@ -140,7 +140,7 @@ Unit tests were implemented for:
 - Delete operations
 
 
-# Assignment 12 – Service Layer and REST API
+## Assignment 12 – Service Layer and REST API
 
 ## Overview
 This assignment implemented a service layer and REST API using FastAPI.

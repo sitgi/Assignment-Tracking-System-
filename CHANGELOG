@@ -86,3 +86,13 @@ All notable changes made to the Assignment Tracking System project are documente
 - README documentation
 - Project folder structure
 - GitHub issue tracking
+
+## Assignment 12
+
+### Added
+- Service layer implementation
+- REST API endpoints
+- Service tests
+- API tests
+- OpenAPI documentation
+- FastAPI route definitions

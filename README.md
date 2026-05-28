@@ -159,3 +159,39 @@ Endpoints:
 
 ## Documentation
 OpenAPI documentation added under /docs.
+
+
+## Assignment 13 – CI/CD and Branch Protection
+
+## Overview
+
+This assignment implemented Continuous Integration and Continuous Deployment using GitHub Actions.
+
+## CI Pipeline
+
+The CI pipeline automatically:
+
+- Runs on push
+- Runs on pull requests
+- Installs Python
+- Executes pytest tests
+
+## CD Pipeline
+
+The CD process:
+
+- Creates release artifacts
+- Packages project files
+- Uploads build artifacts
+
+## Branch Protection
+
+Main branch protection was enabled to:
+
+- Prevent direct pushes
+- Require pull request reviews
+- Enforce CI validation
+
+## GitHub Actions
+
+GitHub Actions were used to automate testing and deployment workflows.

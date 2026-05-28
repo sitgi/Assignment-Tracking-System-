@@ -96,3 +96,12 @@ All notable changes made to the Assignment Tracking System project are documente
 - API tests
 - OpenAPI documentation
 - FastAPI route definitions
+
+## Assignment 13
+
+### Added
+- GitHub Actions CI pipeline
+- Automated testing workflow
+- CD artifact generation
+- Branch protection rules
+- CI/CD documentation

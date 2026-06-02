@@ -159,3 +159,30 @@ Endpoints:
 
 ## Documentation
 OpenAPI documentation added under /docs.
+
+## Assignment 14
+
+## Getting Started
+
+## Prerequisites
+
+- Python 3.11
+- Git
+- GitHub Account
+
+## Installation
+
+1. Clone repository
+2. Install dependencies
+3. Run tests
+
+# Features for Contribution
+
+| Feature                     | Status      |
+|-----------------------------|-------------|
+| User Registration           | Complete    |
+| User Login                  | Complete    |
+| Assignment Management       | Complete    |
+| Reminder System             | Complete    |
+| Search Functionality        | In Progress |
+| Performance Improvements    | Planned     |

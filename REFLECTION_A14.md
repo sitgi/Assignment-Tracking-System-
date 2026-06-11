@@ -24,3 +24,15 @@ A well-organized repository encourages participation and makes it easier to main
 
 Overall, this assignment improved my understanding of project management, documentation standards, contributor onboarding, and GitHub collaboration workflows. 
 These skills are valuable in professional software development environments where teamwork and maintainability are just as important as writing code.
+
+# Additional Reflection – Assignment 15
+
+This assignment introduced me to collaborative software development through contributing to peer repositories. I learned how pull requests, issue tracking, and repository guidelines support teamwork in software projects.
+
+One important lesson I learned was the importance of communication before starting development work. Commenting on issues first helped avoid duplicated work and improved coordination with repository owners.
+
+Another valuable experience was learning how to follow different project structures and coding conventions. Each repository had its own organization style, documentation quality, and contribution workflow. This required adaptability and careful attention to project guidelines.
+
+I also learned that smaller pull requests are easier to review and more likely to be accepted. Focused changes improved collaboration and reduced review complexity.
+
+This assignment strengthened my understanding of open-source collaboration, GitHub workflows, peer review processes, and professional software teamwork practices.
